@@ -1,7 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-const api = axios.create({
-    baseURL: 'http://localhost:5000/api',
+const API = axios.create({
+    baseURL: "https://billing-mvp-1.onrender.com/api"
 });
-
-export default api;
+export default API
